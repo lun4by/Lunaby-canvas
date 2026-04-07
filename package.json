@@ -1,0 +1,44 @@
+{
+  "name": "lunaby-canvas",
+  "version": "1.0.0",
+  "description": "Make configurable canvas easily with Lunaby-canvas",
+  "main": "index.js",
+  "types": "./typings/index.d.ts",
+  "keywords": [
+    "discord",
+    "discord.js",
+    "canvas",
+    "rank",
+    "card",
+    "rankcard",
+    "skia-canvas",
+    "skia",
+    "node-canvas",
+    "welcome"
+  ],
+  "scripts": {
+    "test": "node ./test/index",
+    "start": "node ./test/index",
+    "types": "tsc"
+  },
+  "author": {
+    "name": "s4ory"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lun4by/lunaby-canvas.git"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.97",
+    "canvas": "^3.2.3",
+    "dayjs": "^1.11.20",
+    "fs": "^0.0.1-security",
+    "node-fetch": "^3.3.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.2",
+    "typescript": "^6.0.2"
+  }
+}
